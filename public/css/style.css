@@ -6,7 +6,7 @@ June - 2011
 
 /*
 	01-RESET CSS
-	02- BODY , HEADINGS & TABLES
+	02- BODY, HEADINGS & TABLES
 	03-FORMS
 	04-BASIC STYLES
 	05-GRID
@@ -101,6 +101,9 @@ h1,h2,h3,h4,h5,h6 {
 	white-space:normal;
 	color:#272727;
 	margin-bottom:10px;
+}
+p  {
+        font-size:14px;
 }
 h1 {
 	font-size:34px;
@@ -971,142 +974,6 @@ a#copyright-logo {
 					/*FOOTER ENDS*/
 /*-------------------------------------------------------------------------------------------------*/	
 /*-------------------------------------------------------------------------------------------------*/
-					/*09 - PORTFOLIO*/
-/*-------------------------------------------------------------------------------------------------*/	
-.portfolio-item-preview {
-	display:block;
-	background:url(../images/bg-fade.png) no-repeat center center;
-	
-
-}
-.portfolio-img{}
-.bordered-img {
-	border:5px solid #f8f8f8;
-}
-.pretty-box{
-	background-color:#f8f8f8;
-	background:-moz-linear-gradient(center bottom , #f8f8f8 0px, #FFF 100%) repeat scroll 0 0 transparent;
-	background:-webkit-gradient(linear,left bottom,left top, color-stop(0, #f8f8f8),color-stop(1, #FFF));
-	border:1px solid #ebebeb !important;
-	padding:4px;
-}
-.pretty-box:hover {	
-	border:1px solid #556074 !important;
-	-moz-box-shadow:0 0px 3px #e7e7e7;
-	box-shadow: 0 0px 3px #e7e7e7;
-	-webkit-box-shadow: 0 0px 3px #e7e7e7;
-	-o-box-shadow: 0 1px 3px #e7e7e7;
-}
-#portfolio {
-	width: 960px;
-	float: left;
-}
-.portfolio-container ul li a.hide {
-	display: none;
-}
-.portfolio-container {
-	padding: 0px;
-	display: block;
-	width: 990px;
-	float: left;
-	height:auto;
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	margin-right: -30px;
-}
-.portfolio-container ul {
-	list-style-type: none;
-	margin: 0px;
-	padding-left: 0px;
-	padding-top:10px;
-}
-/***************************************************
-		  FILTERABLE   PORTFOLIO 
-***************************************************/
-#filterable  {
-	display: inline;
-	float: right;
-	margin-bottom: 20px;
-	margin-right:20px;
-
-}
-#filterable li {
-	float: left;
-	margin-left: 25px;
-	
-}
-#filterable li a {
-	display: block;
-	color: #aaa;
-	font: bold 11px arial;
-	text-decoration: none;
-	text-align: center;
-	width: 100%;
-	height: auto;
-	padding:2px 5px;
-	margin:5px;
-	background: #fafafa;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	border-top: 1px solid #f0f0f0;
-	-webkit-box-shadow: 
-		inset 0 0 25px #fafafa,
-		0 1px 0 #cecece,
-		0 2px 0 #c9c9c9,
-		0 2px 3px #4a4a4a;
-	-moz-box-shadow: 
-		inset 0 0 25px #fafafa,
-		0 1px 0 #cecece,
-		0 2px 0 #c9c9c9,
-		0 2px 3px #4a4a4a;
-	box-shadow: 
-		inset 0 0 25px #fafafa,
-		0 1px 0 #cecece,
-		0 2px 0 #c9c9c9,
-		0 2px 3px #4a4a4a;
-	text-shadow: 0px 1px 0px #f5f5f5;
-}
-
-#filterable li.current a {
-	color: #e64135;
-	background: #fafafa;
-	margin: 7px 5px 3px;
-	-webkit-box-shadow:
-		inset 0 0 25px #e4e4e4,
-		0 0 3px #333;
-	-moz-box-shadow: 
-		inset 0 0 25px #e4e4e4,
-		0 0 3px #333;
-	box-shadow: 
-		inset 0 0 25px #e4e4e4,
-		0 0 3px #333;
-	border-top: 1px solid #eee;
-}
-#filterable li h5{
-	float: left;
-	margin-top: 5px;
-	
-}
-/*-------------------------------------------------------------------------------------------------*/
-		/*PORTFOLIO DETAILS NAVIGATION*/
-/*-------------------------------------------------------------------------------------------------*/
-.portfolio-details-nav{float:right;width:100%;margin-bottom:15px;}
-#prev,#next {
-	display:block;
-	float:right;
-	padding:4px 9px;
-	margin-right:5px;
-	border:1px solid #d7d7d7;
-	background-color:#ffffff;	
-}
-#prev:hover,#next:hover {
-	background-color:#F7F7F7;
-}
-#prev a:hover,#next a:hover {
-	text-decoration:none!important;
-}
-/*-------------------------------------------------------------------------------------------------*/
 					/*10 - BUTTONS*/
 /*-------------------------------------------------------------------------------------------------*/	
 
@@ -1669,36 +1536,6 @@ ul.list-box > li{
 	background: -webkit-linear-gradient(top, #b576ad, #9a4d90); 
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b576ad), color-stop(1, #9a4d90));
 	}
-/*-----------------------*/
-/* PRICING TABLE  */
-/*-----------------------*/
-.pricing-pricing-table-box-container{ width:960px;}
-.pricing-table-box-container ul{ margin:0px; border-bottom:1px solid #dcdcdc; float:left; }
-.pricing-table-box-container ul li{ float:left; list-style-type:none; padding:15px 0px 10px 0px ; line-height:normal; color:#707070 !important; min-height:22px; }
-.pricing-table-box-container ul li h4{ margin:0px; font-size:14px;}
-.pricing-table-box-container ul li.one{
-	width:465px; 
-	padding-left:20px;
- }
-.pricing-table-box-container ul li.one:hover{ 
-	background:#e3f7ba;cursor:pointer;
-	-webkit-transition: all 0.25s ease;
-	-moz-transition: all 0.25s ease;
-	-o-transition: all 0.25s ease;
-	-ms-transition: all 0.25s ease;
-	transition: all 0.25s ease;
-}
-	.pricing-table-box-container ul li.two{ width:155px; text-align:center; border-left:1px solid #dcdcdc; }
-	.pricing-table-box-container ul li.three{ width:155px; text-align:center; border-left:1px solid #dcdcdc; }
-	.pricing-table-box-container ul li.four{ width:155px; text-align:center; border-left:1px solid #dcdcdc; }
-	ul.pricing-table-header li{ }
-	ul.pricing-table-white{ background-color:#FFF; float:left;}
-	ul.pricing-table-white li.one{ width:475px; padding-left:10px; }
-	ul.pricing-table-grey{ background-color:#fafafa}
-	ul.pricing-table-grey li.one{ width:475px; padding-left:10px; }
-	ul.tbl-price{ border:0px; font-size:18px;}
-	.icontable{width:25px; margin-right:10px;}
-	.icontable img{vertical-align:middle;}
 
 /*------------------------------------------------------------*/
 			/*12- GRID HOMEPAGE*/
