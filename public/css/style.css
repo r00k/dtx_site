@@ -318,8 +318,7 @@ form.inline p {
 a#logo {
 	display:block;
 	float:left;
-	width:290px;
-	height:60px;
+	width:390px;
 }
 .slideshow {	
 	
@@ -538,7 +537,6 @@ pre,code {
 .intro-pages  h1,.intro-pages  h2,.intro-pages  h3,.intro-pages  h4{
 	text-align:center;
 	margin-bottom:0;	
-	font-style:italic;
 }
 .intro-pages  a {
 	color:#e64135;
