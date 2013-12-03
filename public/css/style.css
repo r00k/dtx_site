@@ -6,14 +6,13 @@ June - 2011
 
 /*
 	01-RESET CSS
-	02- BODY, HEADINGS & TABLES
+	02-BODY, HEADINGS & TABLES
 	03-FORMS
 	04-BASIC STYLES
 	05-GRID
 	06-NAVIGATION
 	07-SLIDERS
 	08-FOOTER
-	09-PORTFOLIO
 	10-BUTTONS
 	11-PRICING BOXES &  TABLES
 	12-GRID HOMEPAGE
@@ -167,114 +166,6 @@ tbody.colorfull td:hover {background:#ebebeb;cursor:pointer;}
 /*------------------TABLE STYLES ENDS------------------*/
 /*-------------------------------------------------------*/
 
-/*-------------------------------------------------------*/
-/*------------------03 - FORM STYLE------------------*/
-/*-------------------------------------------------------*/
-label {
-	font-weight:normal;
-	display:block;
-	color:#7f7f7f;
-}
-input[type=text],input[type=password],input.text,input.title,textarea {
-	background-color:#FFF;
-	border:1px solid #ebebeb;
-	font-size:11px;
-}
-input[type=text]:focus,input[type=password]:focus,input.text:focus,input.title:focus,textarea:focus {
-	border-color:#88bbc8;
-	-moz-box-shadow: 0 0px 3px #88bbc8;
-	-webkit-box-shadow: 0 0px 3px #88bbc8;
-	box-shadow: 0 0px 3px #88bbc8;
-}
-select {
-	background-color:#fff;
-	border-width:1px;
-	border-style:solid;
-}
-input[type=text],input[type=password],input.text,input.title,textarea,select {
-	margin:5px 0;
-}
-input.text,input.title {
-	width:200px;
-	padding:5px;
-}
-input.title {
-	font-size:1.5em;
-}
-textarea {
-	width:450px;
-	height:180px;
-	padding:5px;
-}
-form.inline {
-	line-height:3;
-}
-form.inline p {
-	margin-bottom:0;
-}
-.search-input{
-	background:#FFF url("../images/search-bg.png")  right no-repeat;
-	padding:6px;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	width:200px;
-	color:#c6c6c6;
-	
-}
-.search-place{
-	margin-left:25px;
-}
-.required {
-	color:#ed1c24;color:#e64135;
-}
-.required {
-	color:#ed1c24;
-}
-.error{color:#e64135;text-align:right;font-size:11px;}
-.success{color:#acd373;text-align:right;font-size:11px;}
-.simple-error,.simple-alert,.simple-notice,.simple-success,.simple-info {
-	
-	padding:0.8em;
-	margin-bottom:1em;
-	border:1px solid #ddd;
-}
-.simple-error,.simple-alert {
-	background:#fbe3e4;
-	border-color:#fbc2c4;
-	color:#e64135;
-}
-.simple-notice {
-	background:#fff6bf;
-	color:#514721;
-	border-color:#ffd324;
-}
-.simple-success {
-	background:#e6efc2;
-	color:#264409;
-	border-color:#c6d880;
-}
-.simple-info {
-	background:#d5edf8;
-	color:#205791;
-	border-color:#92cae4;
-}
-.simple-error a,.simple-alert a {
-	color:#8a1f11;
-}
-.simple-notice a {
-	color:#514721;
-}
-.simple-success a {
-	color:#264409;
-}
-.simple-info a {
-	color:#205791;
-}
-#sign-up-form input,#sign-up-form select{padding:7px 10px;width:250px;border:1px solid #cccccc;}
-#sign-up-form  #Mysubmitted{width:105px!important;padding:5px 10px;border:none;color:#FFF;}
-#round-form input,#round-form select{padding:7px 10px;width:250px;border:1px solid #cccccc;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;}
-#round-form input:focus,#round-form select:focus{border-color:#72c2e7;-moz-box-shadow: 0 0px 5px #72c2e7;-webkit-box-shadow: 0 0px 5px #72c2e7;box-shadow: 0 0px 5px #72c2e7;}
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
 /* ------------------04 - BASIC STYLE
