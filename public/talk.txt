@@ -1,0 +1,86 @@
+Keynote vs talk - blame speaker vs organizers
+
+I love interruptions
+
+# How to take a Codecation
+
+## How to go on Codecation
+
+1. Find someone you want to know better.
+2. Choose somewhere you both want to go.
+3. Go there, but spend most of your time writing code.
+4. Ship something
+
+
+## The story of my first Codecation
+
+Back story
+  Tweet
+  Email
+Who is Chris?
+  Show video
+  Show gif
+Closest come to dying in traffic
+Airbrb with one bed 
+ClojureScript
+Show GOL
+Show maze
+  DFS - stack
+  BFS - queue
+Show maze PR with different strategies
+All open source
+
+
+## Example: Boulder
+
+Show PR brochure Chris made
+Show time lapse
+Trailmix
+  - Open source it!
+  - Developer journal
+
+
+## More detailed instructions
+
+* Get a house
+ - Don't waste much time on food
+* Exercise a lot
+* Ship
+* Meditate
+
+## Example: Upcase
+
+Bigger team still worked
+Form smaller teams
+Upcase - Codeschool plus Exercism
+Show blooper video
+
+
+## Conclusion
+
+Why
+  It's super fun!
+  Space to play
+  Surgeons can't do this
+
+
+## TODO
+
+- Print notes
+
+
+## Setup
+
+- Load blooper video to 1:27-3:23
+- Load Chris' Rubiks vid
+- Load links in order:
+  Clojurerica
+    https://twitter.com/r00k/status/382706978977742848
+    https://twitter.com/chrishunt/status/382709983122436096
+    https://twitter.com/r00k/status/382710172252385280
+    https://twitter.com/chrishunt/status/382710300341841922
+    http://codecation.github.io/2014-02-clojure-rica/
+    https://github.com/codecation/maize/pull/11
+  Boulder
+    https://github.com/codecation/trips/issues/1
+    https://github.com/codecation/trailmix/settings

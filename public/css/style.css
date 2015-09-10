@@ -222,7 +222,7 @@ a#logo {
 }
 a {
 	text-decoration:none;
-	color:#88bbc8;
+	color:#1A4386;
 }
 a:hover {
 	text-decoration:none;
@@ -426,12 +426,16 @@ pre,code {
 	height:auto;
 	margin-bottom:30px;
 	background:transparent url("../images/intro-pages-bg.png") no-repeat bottom;
-	border-top:1px solid #efefef;
 }
 .intro-pages  h1,.intro-pages  h2,.intro-pages  h3,.intro-pages  h4{
 	text-align:center;
 	margin-bottom:0;	
 }
+
+.intro-pages h3 {
+  font-size: 32px;
+}
+
 .intro-pages  a {
 	color:#e64135;
 }
@@ -730,14 +734,11 @@ background: #FFF;
 #footer-wrapper {
 	width:1020px;
 	float:left;
-	background:#363636;
+	background:#C9C9C9;
 	line-height:20px;
-	color:#FFF;
+	color:000;
 	margin-top:30px;
-	border-top:5px solid #2b2b2b;
-	border-bottom:1px solid #464646;
 	margin-left:-30px;
-	text-shadow: 0px 1px 0px #292929;
 }
 #footer-container {
 	width:100%;
@@ -769,7 +770,9 @@ background: #FFF;
 #footer ul li span a {
 	display: inline;
 }
-#footer h1,#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {color:#FFF;}
+#footer h1,#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+  color:rgb(102, 102, 102);
+}
 /********** SOCIAL-LINK UL***************/
 ul.social-links {
 	float:left;
@@ -779,6 +782,7 @@ ul.social-links {
 ul.social-links li {
 	display:block;
 	margin-bottom:0px;
+        font-size: 16px;
 }
 ul.social-links li img {
 	margin-right:7px;
